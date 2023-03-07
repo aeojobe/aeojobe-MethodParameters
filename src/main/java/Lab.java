@@ -26,6 +26,13 @@ public class Lab {
      * @return text.
      */
     public String copy(String text){
-        return "return text please!";
+        return text;
+       // Whatever paramer passed is assigned to string text
+       
+    }
+    public static void main(String[] args){
+        Lab p = new Lab();
+        p.copy("Alhagie");
+        
     }
 }
